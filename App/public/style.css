@@ -1,0 +1,128 @@
+.breathVertical {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+
+.breathHorizontal {
+    margin-left:5px;
+    margin-right:5px;
+}
+
+div.todoStatusActive {
+
+    color : black;
+}
+
+
+div.todoStatusComplete{
+    color : green;
+    text-decoration : line-through;
+}
+
+div.todoStatusDelete {
+    color : red;
+    text-decoration : line-through;
+
+}
+
+.button{
+    background-color: white;
+    border: none;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 100px;
+    float: right;
+}
+.active_todos{
+    margin-left: 80px;
+    margin-top: -10px;
+    font-family: "Arial Narrow";
+}
+.checkbox{
+    margin-right: 20px;
+    background-color: white;
+    border-color: blue;
+    color: white;
+}
+.input{
+    margin-left: 100px;
+    margin-top: -15px;
+    font-size: 15px;
+    width: 400px;
+
+}
+.heading{
+    background-color: #FFFACD;
+    margin-top: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -5px;
+    margin-right: -5px;
+    font-family: "Arial";
+}
+
+.add_todo{
+    color: grey;
+    margin-left: 50px;
+    ;
+}
+.new_todo{
+    border:none;
+    border-bottom: 2px solid grey ;
+    margin-left: 30px;
+    width: 140px;
+
+}
+.add_button{
+    background-color: lightskyblue;
+    width: 50px;
+    hieght: 30px;
+    margin-top: -10px;
+    border-radius: 0.2px;
+    border-width: 0.2px;
+    padding: 4px;
+    margin-right: 10px;
+}
+.completed_todos{
+    width: 200px;
+    margin-left: 80px;
+    font-family: "Arial Narrow";
+    font-size: 15px;
+    float: left;
+}
+.completed_list{
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 400px;
+}
+.deleted_todos{
+    margin-left: 80px;
+    font-family: "Arial Narrow";
+}
+.deleted_list{
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 400px;
+}
+.check{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.hidden{
+    width: 150px;
+    float:right;
+    height: 100%;
+    color: blue;
+    font-size: 12px;
+    cursor: pointer;
+}
+.full_heading{
+    width: 550px;
+    height:20px;
+}

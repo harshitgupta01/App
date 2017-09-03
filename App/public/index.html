@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2 align="center" class = "heading" >My Todos</h2>
+    <br>
+    <h4 class="active_todos">Active Todos</h4>
+    <div id = "todos_list_div" class="input"></div>
+    <hr>
+    <p class = "add_todo"><b>Add Todo</b></p>
+    <input type="text" placeholder="Todo Title Goes Here" id="new_todo_input" class="new_todo"/>
+    <button onclick="addTodoAJAX()" value="add todo" class="add_button">Add</button>
+    <hr>
+    <div class="full_heading">
+        <div class="completed_todos"><b>Completed Todos</b></div>
+        <div class="hidden" id="hide_completed_items" onclick="hide_com_items()"><u>Hide Completed Items</u></div>
+    </div>
+    <div id="completed_list_div" class="completed_list"></div>
+    <hr>
+    <div class="full_heading">
+        <div class="completed_todos"><b>Deleted Todos</b></div>
+        <div class="hidden" id="hide_deleted_items" onclick="hide_del_items()"><u>Hide Deleted List</u></div>
+    </div>
+    <div id="deleted_list_div" class="deleted_list"></div>
+    <script src="\script.js" type="text/javascript"></script>
+</body>
+</html>
